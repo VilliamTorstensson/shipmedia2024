@@ -1,6 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 import Link from 'next/link'  
-import { motion } from 'framer-motion';
+
 export default function Services () {
   return (
     <main id="services" className="  h-full  ">
