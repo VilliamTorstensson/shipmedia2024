@@ -48,15 +48,15 @@ const closeMenu = () => {
             </ul>
             <ul className='text-sm flex  lg:text-lg justify-between items-center h-full w-full gap-5'>
             
-              <li className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6  rounded-full  hidden md:inline-block'><Link href="#services">Services</Link></li>
+              <Link className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6  rounded-full  hidden md:inline-block' href="#services">Services</Link>
 
-              <li className=' hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6 rounded-full  hidden md:inline-block'><Link className='' href="#work">Work</Link></li>
+              <Link className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6 rounded-full  hidden md:inline-block' href="#work">Work</Link>
 
-              <li className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6  rounded-full  hidden md:inline-block'><Link href="#about">About</Link></li>
+              <Link className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6  rounded-full  hidden md:inline-block' href="#about">About</Link>
 
-              <li className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6  rounded-full  hidden md:inline-block'><Link href="#pricing">Pricing</Link></li>
+              <Link className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6  rounded-full  hidden md:inline-block' href="#pricing">Pricing</Link>
 
-              <li className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6 rounded-full  hidden md:inline-block'><Link href="#faq">FAQs</Link></li>
+             <Link className='hover:bg-[#f5f5f5] text-white hover:text-[#151517]  font-semibold py-2 px-6 rounded-full  hidden md:inline-block' href="#faq">FAQs</Link>
               
             </ul>
             <ul className='hidden lg:flex w-full h-full justify-end items-center'>
