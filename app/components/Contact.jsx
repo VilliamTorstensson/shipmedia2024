@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from 'next/link'
 
 export default function Contact () {
-  const [state, handleSubmit] = useForm("mjvqznqk");
+  const [state, handleSubmit] = useForm("mzbllygq");
   if (state.succeeded) {
       return <div className='px-4 sm:px-10 max-w-[1440px] mx-auto'>
         <div className='md:w-[50%] w-full h-full flex flex-col gap-10'>
