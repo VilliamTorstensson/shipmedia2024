@@ -33,8 +33,8 @@ export default function ImageSlider () {
             <Image
               src={item.url}
               alt="work"
-              width={500}
-              height={500}
+              width={1080}
+              height={1080}
               layout="responsive"
               objectFit="cover"
               className="rounded-md"
