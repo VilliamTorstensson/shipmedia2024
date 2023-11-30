@@ -43,7 +43,7 @@ export default function About () {
             </div>
           </div>
           <div className="h-full w-full order-1">
-            <Image src="/mig.jpg" alt="me" width={500} height={500} layout="responsive" objectFit="cover" className="rounded-sm" />
+            <Image src="/mig.jpg" alt="me" width={500} height={500}   className="rounded-sm" />
           </div>
           <div className="h-[95%] w-full flex flex-col justify-between lg:items-center items-start order-3 xl:order-3">
             <div className='hidden xl:flex justify-between w-[80%]'>

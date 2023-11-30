@@ -79,8 +79,6 @@ const y = useTransform(scrollYProgress, [0, 1], [1, 1000])
                 alt="work"
                 width={1080}
                 height={1920}
-                layout="responsive"
-                objectFit="cover"
                 className="rounded-md"
               />
               </motion.div>

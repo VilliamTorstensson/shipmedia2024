@@ -35,8 +35,6 @@ export default function ImageSlider () {
               alt="work"
               width={1080}
               height={1080}
-              layout="responsive"
-              objectFit="cover"
               className="rounded-md"
             />
           </div>
