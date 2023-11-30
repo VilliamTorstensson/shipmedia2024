@@ -12,7 +12,7 @@ const anton = Anton({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata = {
   title: 'Ship media',
-  description: 'Digital visons to reality',
+  description: 'Digital products, brands and experiences.',
 }
 
 export default function RootLayout({ children }) {
