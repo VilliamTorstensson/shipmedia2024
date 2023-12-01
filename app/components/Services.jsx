@@ -41,7 +41,7 @@ export default function Services () {
    
 
   return (
-    <main id="services" className="bg-black  h-full  ">
+    <main id="services" className="bg-[#090909]  h-full  ">
       <section className="w-full h-full max-w-[1440px] mx-auto">
         <div className="py-20  sm:px-10 px-4 flex flex-col gap-10 items-start justify-start">
           <h1 className="sm:text-6xl text-4xl uppercase">choose a service that <br /> works for you</h1>
@@ -68,11 +68,11 @@ export default function Services () {
                     <div style={Stylediv} className={`rounded-lg cursor-pointer flex justify-start flex-col h-min items-start relative py-4 ${isOpen ? 'justify-start' : ''}`}>
                       <div className={`z-10 absolute w-full h-full bg-black top-0 left-0 opacity-0  ${isOpen ? 'opacity-90' : ''}`} >
                       </div>
-                      <h1 className={`ml-4 uppercase z-20 bg-black bg-opacity-80 text-white px-6 py-2 text-2xl ${isOpen ? ' ml-0' : ''}`}>{item.title}</h1>
+                      <h1 className={`ml-4 uppercase z-20 bg-black bg-opacity-80 text-white px-6 py-2 text-2xl ${isOpen ? 'ml-0' : ''}`}>{item.title}</h1>
                       {isOpen ? (
                         <div className='flex flex-col gap-4 relative'>
                             <p key={item.id} className="px-6 text-xl z-20 duration-500 w-[80%] h-full mt-4">{item.description}</p>
-                            <Link className='z-20 ml-4 px-6 rounded-md text-black text-lg  bg-white w-min py-2 mt-4' href="#contact">Contact</Link>
+                            <Link className='uppercase z-20 ml-4 px-6 rounded-sm text-black text-lg  bg-white w-min py-2 mt-4' href="#contact">Contact</Link>
                         </div>
                     
                       ) : (

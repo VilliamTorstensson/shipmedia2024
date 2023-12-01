@@ -62,7 +62,7 @@ const { scrollYProgress } = useScroll({
   offset: ['start end', 'end start'],
 })
 
-const y = useTransform(scrollYProgress, [0, 1], [1, 1000])
+const y = useTransform(scrollYProgress, [0, 1], [1, 900])
 
   return (
     <main id="work" className="w-full h-full my-auto flex items-center justify-center overflow-y-hidden relative bg-[#2d2d2f] ">
