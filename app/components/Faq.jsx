@@ -62,7 +62,7 @@ const Faq = () => {
   return (
     <main id="faq" className='w-full h-full px-4 md:px-10 bg-[#090909]'>
     <div className='
-      justify-start flex flex-col items-center py-20 sm:px-10 px-0 max-w-[1440px] mx-auto gap-4   rounded-xl faqbg '>
+      justify-start flex flex-col items-center py-20 max-w-[1440px] mx-auto gap-4   rounded-xl faqbg '>
         <h1 className='w-full text-center text-white text-7xl uppercase mb-10'>FAQs</h1>
       
       {questions.map((q) => (

@@ -70,7 +70,7 @@ const y = useTransform(scrollYProgress, [0, 1], [1, 1000])
       <div ref={container} className=' relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 z-0'>
         {card.map((item) => {
           return (
-            <div  y={0} key={item.id} className="xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full">
+            <div style={{scrollBehavior: 'smooth'}}  y={0} key={item.id} className="scroll-smooth xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full">
               <motion.div style={{y}} >
               <Image
                
