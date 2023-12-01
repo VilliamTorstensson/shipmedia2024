@@ -4,18 +4,18 @@ export default function Benefits () {
       <section className="h-full w-full  rounded-md px-4 md:px-10 flex flex-col gap-10 ">
         <h1 className="text-6xl uppercase text-start">benefits</h1>
         <div className="grid grid-cols-2 w-full lg:grid-cols-3 gap-5">
-        <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-2xl uppercase">E-commerce</h1>
-        <p>All my packages comes with an e-commerce option availible</p></div>
-        <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-2xl uppercase">Fast Delivery</h1>
-        <p>Fast delivery on all my services</p></div>
-        <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-2xl uppercase">Figma designs</h1>
-        <p>Standard and up plans includes figma deisgns, from ad creatives to branding</p></div>
-        <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-2xl uppercase">Responsive</h1>
-        <p>I make sure all my projects is responsive for all devices</p></div>
-        <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-2xl uppercase">User-friendly</h1>
-        <p>My projects key is user-friendlyness easy to navigate and a clear message </p></div>
-        <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-2xl uppercase">Maintenance</h1>
-        <p>for only 1999kr/month you gain acces to my hosting software, collect all leads in one place, and build automated sales funnels</p></div>
+        <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">E-commerce</h1>
+        <p className="text-xs sm:text-md">All my packages comes with an e-commerce option availible</p></div>
+        <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Fast Delivery</h1>
+        <p className="text-xs sm:text-md">Fast delivery on all my services</p></div>
+        <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Figma designs</h1>
+        <p className="text-xs sm:text-md">Standard and up plans includes figma deisgns, from ad creatives to branding</p></div>
+        <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Responsive</h1>
+        <p className="text-xs sm:text-md">I make sure all my projects is responsive for all devices</p></div>
+        <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">User-friendly</h1>
+        <p className="text-xs sm:text-md">My projects key is user-friendlyness easy to navigate and a clear message </p></div>
+        <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Maintenance</h1>
+        <p className="text-xs sm:text-md">for only 1999kr/month you gain acces to my hosting software, collect all leads in one place, and build automated sales funnels</p></div>
         </div>
       </section>
     </main>
