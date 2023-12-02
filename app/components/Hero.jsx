@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Hero () {
   return (
-    <main id="hero" className="w-full  h-full  ">
+    <main id="hero" className="w-full  h-full bg-gradient-to-b from-[#090909] via-[#151517]  ">
       <section className="pt-20 sm:pt-40 pb-10 w-full h-full">
       
         

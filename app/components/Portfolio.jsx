@@ -71,7 +71,7 @@ const y = useTransform(scrollYProgress, [0, 1], [1, 900])
         {card.map((item) => {
           return (
             <div style={{scrollBehavior: 'smooth'}}  y={0} key={item.id} className="scroll-smooth xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full">
-              <motion.div style={{y}} >
+              <motion.div className='scroll-smooth' style={{y}} >
               <Image
                
               y={y}

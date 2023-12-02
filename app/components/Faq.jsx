@@ -60,15 +60,15 @@ const Faq = () => {
   };
 
   return (
-    <main id="faq" className='w-full h-full px-4 md:px-10 bg-[#090909]'>
-    <div className='
-      justify-start flex flex-col items-center py-20 max-w-[1440px] mx-auto gap-4   rounded-xl faqbg '>
-        <h1 className='w-full text-center text-white text-7xl uppercase mb-10'>FAQs</h1>
+    <main id="faq" className='border-t border-[#606060] w-full  h-full   '>
+    <div className='px-4
+      justify-start md:px-10 max-w-[1440px] mx-auto flex flex-col items-center py-20  gap-4   rounded-xl faqbg '>
+        <h1 className='w-full text-center underline text-white text-7xl uppercase mb-10'>FAQs</h1>
       
       {questions.map((q) => (
         
-        <div className='flex-col flex w-full ' key={q.id}>
-            <div className={`cursor-pointer  bg-[#f8f8f8] rounded-sm w-full px-4 py-4 ${q.id === 1 ? '' : ''}`}>
+        <div className='flex-col  flex w-full ' key={q.id}>
+            <div className={`cursor-pointer  bg-[#f8f8f8]  rounded-sm w-full px-4 py-4 ${q.id === 1 ? '' : ''}`}>
             <div className='w-full flex justify-between text-black' onClick={() => handleQuestionClick(q.id)}>
             <p className='font-bold text-md w-[80%]' onClick={() => handleQuestionClick(q.id)}>{q.question} </p>
             

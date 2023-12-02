@@ -16,7 +16,7 @@ const closeMenu = () => {
 }
   return (
     <section id="nav" className="w-full h-full ">
-      <nav className="  z-20 px-4 md:px-10 w-full h-20 max-w-[1440px] mx-auto flex justify-between  items-center">
+      <nav className="  z-20 px-4 md:px-10 w-full h-20 max-w-[1540px] mx-auto flex justify-between  items-center">
         <h1 className='hidden md:flex line-through decoration-black text-xl'>VILLIAM</h1>
         <Link aria-label='back to homepage' className='w-full flex justify-start md:justify-center text-2xl  ' href="/">SHIP MEDIA</Link>
         <div onClick={handleClick} className=' flex flex-col justify-between  w-10 h-10

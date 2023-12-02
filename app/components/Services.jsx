@@ -65,10 +65,10 @@ export default function Services () {
                 return (
                   <div onClick={handleClick} key={item.id} className="relative w-full h-full">
                     
-                    <div style={Stylediv} className={`rounded-lg cursor-pointer flex justify-start flex-col h-min items-start relative py-4 ${isOpen ? 'justify-start' : ''}`}>
-                      <div className={`z-10 absolute w-full h-full bg-black top-0 left-0 opacity-0  ${isOpen ? 'opacity-90' : ''}`} >
+                    <div style={Stylediv} className={`rounded-lg cursor-pointer flex justify-start  flex-col h-min items-start relative py-4 ${isOpen ? 'justify-start' : ''}`}>
+                      <div className={`z-10  absolute w-full h-full bg-black top-0 left-0  ${isOpen ? 'opacity-90' : 'opacity-10 md:hover:opacity-30'}`} >
                       </div>
-                      <h1 className={`ml-4 uppercase z-20 bg-black bg-opacity-80 text-white px-6 py-2 text-2xl ${isOpen ? 'ml-0' : ''}`}>{item.title}</h1>
+                      <h1 className={` uppercase z-20 bg-black bg-opacity-80 text-white px-6 py-2 text-2xl ${isOpen ? 'ml-0' : 'ml-4'}`}>{item.title}</h1>
                       {isOpen ? (
                         <div className='flex flex-col gap-4 relative'>
                             <p key={item.id} className="px-6 text-xl z-20 duration-500 w-[80%] h-full mt-4">{item.description}</p>

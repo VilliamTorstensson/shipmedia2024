@@ -5,7 +5,7 @@ export default function Pricing () {
   return (
     <main id="pricing"  className="max-w-[1440px] mx-auto w-full h-full py-20 px-6 sm:px-10">
       <h1 className='w-full  text-center mb-10 uppercase text-4xl md:text-6xl'>My webdevelopment packages</h1>
-      <div  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 ">
+      <div  className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10 ">
         <div className='relative'>
       <span class="absolute top-0 left-0 mt-2 ml-2 h-full w-full  bg-[#676767]"></span>
         <span class="fold-bold relative h-full w-full   bg-[#fff] px-4  text-lg sm:text-2xl font-bold text-white  uppercase flex flex-col items-center gap-5 ">

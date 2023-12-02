@@ -34,18 +34,18 @@ export default function ImageSlider () {
   const x = useTransform(scrollYProgress, [0, 1], ['-1px', '-6000px']);
   
   return (
-    <section useRef={targetRef} className='relative h-full py-10 w-full overflow-x-hidden '>
+    <section useRef={targetRef} className='scroll-smooth relative h-full py-10 w-full overflow-x-hidden border-b border-[#454545] '>
       <motion.div style={{ x }} className="w-full h-content sticky  top-0 flex 2xl:gap-60 md:gap-20 gap-4 py-5 ">
       {card.map((item) => {
         return (
-          <div  key={item.id} className="min-w-[200px] sm:min-w-[280px] md:min-w-[350] lg:min-w-[400px]  2xl:min-w-[500px]  flex gap-4 w-full">
+          <div  key={item.id} className="hover:scale-110 duration-500 min-w-[200px] sm:min-w-[280px] md:min-w-[350] lg:min-w-[400px]  2xl:min-w-[500px]  flex gap-4 w-full">
             
             <Image
               src={item.url}
               alt="work"
               width={1080}
               height={1080}
-              className="rounded-md"
+              className=""
             />
           
          
