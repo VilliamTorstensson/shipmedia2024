@@ -43,7 +43,7 @@ export default function Services () {
   return (
     <main id="services" className="bg-[#090909]  h-full  ">
       <section className="w-full h-full max-w-[1440px] mx-auto">
-        <div className="py-20  sm:px-10 px-4 flex flex-col gap-10 items-start justify-start">
+        <div className="py-20  md:px-10 px-4 flex flex-col gap-10 items-start justify-start">
           <h1 className="sm:text-6xl text-4xl uppercase">choose a service that <br /> works for you</h1>
            
             <div className=" grid grid-cols-1 md:grid-cols-2 w-full h-full gap-4">

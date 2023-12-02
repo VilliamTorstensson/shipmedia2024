@@ -1,4 +1,7 @@
+
 export default function Benefits () {
+
+
   return (
     <main className="w-full h-full max-w-[1440px] mx-auto  py-20">
       <section className="h-full w-full  rounded-md px-4 md:px-10 flex flex-col gap-10 ">
@@ -9,9 +12,12 @@ export default function Benefits () {
         <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Fast Delivery</h1>
         <p className="text-xs sm:text-lg">Fast delivery on all my services</p></div>
         <div className="w-full text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Figma designs</h1>
-        <p className="text-xs sm:text-lg">Standard and up plans includes figma deisgns, from ad creatives to branding</p></div>
+        <p className="text-xs sm:text-lg">Standard and up plans includes figma designs, from ad creatives to branding</p></div>
+
         <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Responsive</h1>
+        
         <p className="text-xs sm:text-lg">I make sure all my projects is responsive for all devices</p></div>
+
         <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">User-friendly</h1>
         <p className="text-xs sm:text-lg">My projects key is user-friendlyness easy to navigate and a clear message </p></div>
         <div className="text-start bg-[rgb(30,30,30)] p-4 flex flex-col gap-4 "><h1 className="text-xl sm:text-2xl uppercase">Maintenance</h1>

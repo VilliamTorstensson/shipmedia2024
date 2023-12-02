@@ -2,6 +2,7 @@
 import Hero from './components/Hero'
 import ImageSlider from './components/ImageSlider'
 import Services from './components/Services'
+import LogoSlider from './components/LogoSlider'
 import Benefits from './components/Benefits'
 import Portfolio from './components/Portfolio'
 import About from './components/About'
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <ImageSlider />
       <Services />
+      <LogoSlider />
       <Benefits />
       <Portfolio />
       <About />
