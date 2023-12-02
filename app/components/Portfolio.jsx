@@ -9,51 +9,51 @@ export default function Portfolio () {
   const card = [
     {
       id: 1,
-      url: "/work5.jpg",
+      url: "/work5.webp",
     },
     {
       id: 2,
-      url: "/work6.jpg",
+      url: "/work6.webp",
     },
     {
       id: 3,
-      url: "/work7.jpg",
+      url: "/work7.webp",
     },
     {
       id: 4,
-      url: "/work8.jpg",
+      url: "/work8.webp",
     },
     {
       id: 5,
-      url: "/work1.jpg",
+      url: "/work1.webp",
     },
     {
       id: 6,
-      url: "/work9.jpg",
+      url: "/work9.webp",
     },
     {
       id: 7,
-      url: "/work2.jpg",
+      url: "/work2.webp",
     },
     {
       id: 8,
-      url: "/work4.jpg",
+      url: "/work4.webp",
     },
     {
       id: 9,
-      url: "/work3.jpg",
+      url: "/work3.webp",
     },
     {
       id: 10,
-      url: "/work8.jpg",
+      url: "/work8.webp",
     },
     {
       id: 11,
-      url: "/work1.jpg",
+      url: "/work1.webp",
     },
     {
       id: 12,
-      url: "/work5.jpg",
+      url: "/work5.webp",
     },
   ];
 const container = useRef(null);

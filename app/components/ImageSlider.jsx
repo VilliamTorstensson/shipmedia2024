@@ -5,23 +5,23 @@ import { useRef } from 'react';
 export default function ImageSlider () {
   const card = [
     {
-      url: "/slideimg3.jpg",
+      url: "/slide3.webp",
       id: 1,
     },
     {
-      url: "/slideimg2.jpg",
+      url: "/slide1.webp",
       id: 2,
     },
     {
-      url: "/slideimg1.jpg",
+      url: "/slide2.webp",
       id: 3,
     },
     {
-      url: "/slideimg5.jpg",
+      url: "/slide4.webp",
       id: 4,
     },
     {
-      url: "/slideimg4.jpg",
+      url: "/slide5.webp",
       id: 5,
     },
    
@@ -35,7 +35,7 @@ export default function ImageSlider () {
   
   return (
     <section useRef={targetRef} className='relative h-full py-10 w-full overflow-x-hidden '>
-      <motion.div style={{ x }} className="w-full h-content sticky  top-0 flex 2xl:gap-20 gap-4 py-5 ">
+      <motion.div style={{ x }} className="w-full h-content sticky  top-0 flex 2xl:gap-60 md:gap-20 gap-4 py-5 ">
       {card.map((item) => {
         return (
           <div  key={item.id} className="min-w-[200px] sm:min-w-[280px] md:min-w-[350] lg:min-w-[400px]  2xl:min-w-[500px]  flex gap-4 w-full">
