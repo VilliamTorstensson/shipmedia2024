@@ -72,7 +72,7 @@ export default function Services () {
                       {isOpen ? (
                         <div className='flex flex-col gap-4 relative'>
                             <p key={item.id} className="px-6 text-xl z-20 duration-500 w-[80%] h-full mt-4">{item.description}</p>
-                            <Link className='uppercase z-20 ml-4 px-6 rounded-sm text-black text-lg  bg-white w-min py-2 mt-4' href="#contact">Contact</Link>
+                            <Link aria-label='contact me' className='uppercase z-20 ml-4 px-6 rounded-sm text-black text-lg  bg-white w-min py-2 mt-4' href="#contact">Contact</Link>
                         </div>
                     
                       ) : (

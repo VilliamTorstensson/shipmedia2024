@@ -65,10 +65,10 @@ export default function Footer() {
               </div>
               <h1 className='font-bold text-lg uppercase mt-5'>Socials</h1>
               <div className='flex w-full justify-start gap-10 text-2xl'>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2 rounded-full' href="https://instagram.com/villiamtorstensson" name="instagram"><AiOutlineInstagram /></Link>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://facebook.com/villiamtorstensson" name="facebook"><AiOutlineFacebook /></Link>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://www.linkedin.com/in/villiam-torstensson-47a0b625a/?originalSubdomain=se" name="linkedin"><AiOutlineLinkedin /></Link>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://github.com/VilliamTorstensson" name="github"><AiOutlineGithub /></Link>
+                <Link aria-label='check my profiles' className='bg-[#323232] hover:bg-[#252525] p-2 rounded-full' href="https://instagram.com/villiamtorstensson" name="instagram"><AiOutlineInstagram /></Link>
+                <Link aria-label='check my profiles' className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://facebook.com/villiamtorstensson" name="facebook"><AiOutlineFacebook /></Link>
+                <Link aria-label='check my profiles' className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://www.linkedin.com/in/villiam-torstensson-47a0b625a/?originalSubdomain=se" name="linkedin"><AiOutlineLinkedin /></Link>
+                <Link aria-label='check my profiles' className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://github.com/VilliamTorstensson" name="github"><AiOutlineGithub /></Link>
                   
                
               </div>
@@ -76,7 +76,7 @@ export default function Footer() {
            
         </div>
         <div className='pb-[110px] w-full flex justify-center items-center gap-2 flex-col text-gray-300 '>
-          <Link href="/Privacy" className=' hover:text-gray-400'>Privacy Policy</Link>
+          <Link aria-label='my privacy policy' href="/Privacy" className=' hover:text-gray-400'>Privacy Policy</Link>
           <h1>© 2023 all rights reserved</h1></div>
       </footer>
     </main>

@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from 'next/link'
 
 export default function Contact () {
-  const [state, handleSubmit] = useForm("mzbllygq");
+  const [state, handleSubmit] = useForm("mzbllygq aria-label='contact me'");
   if (state.succeeded) {
       return <div className='px-4 sm:px-10 max-w-[1440px] mx-auto'>
         <div className='md:w-[50%] w-full h-full flex flex-col gap-10'>
@@ -19,10 +19,10 @@ export default function Contact () {
         <h1 className='text-4xl mt-10   font-sans font-bold'>Thank's for reaching out!</h1>
         <p className='mt-4'>I'll get back to you as soon as possible</p>
         <div className='flex gap-4 mt-5'>
-          <Link href="mailto:villiam@shipmedia.se">
+          <Link aria-label='contact me' href="mailto:villiam@shipmedia.se">
           <AiOutlineMail className='text-2xl' />
           </Link>
-         <Link href="tel:+46722289195">
+         <Link aria-label='contact me' href="tel:+46722289195">
           <AiOutlinePhone className='text-2xl' />
           </Link>
         </div>
@@ -109,17 +109,17 @@ export default function Contact () {
     <div className='w-full h-full flex flex-col gap-2'>
       <h1 className='text-lg lg:text-2xl px-4 py-2 uppercase bg-[#fff] text-[#090909]'>ship media sweden</h1>
       <h1 className='text-lg lg:text-2xl px-4 py-2 uppercase bg-[#fff] text-[#090909]'>Idrottsgatan 17 59350 västervik, sweden</h1>
-      <Link className='hover:bg-gray-300 text-lg lg:text-2xl px-4 py-2 uppercase bg-[#fff] text-[#090909]' href="mailto:villiam@shipmedia.se">Villiam@shipmedia.se</Link>
-      <Link className='hover:bg-gray-300 text-lg lg:text-2xl px-4 py-2 uppercase bg-[#fff] text-[#090909]' href="tel:+46722289195">Phone</Link>
+      <Link aria-label='my profiles' className='hover:bg-gray-300 text-lg lg:text-2xl px-4 py-2 uppercase bg-[#fff] text-[#090909]' href="mailto:villiam@shipmedia.se">Villiam@shipmedia.se</Link>
+      <Link aria-label='my profiles' className='hover:bg-gray-300 text-lg lg:text-2xl px-4 py-2 uppercase bg-[#fff] text-[#090909]' href="tel:+46722289195">Phone</Link>
       
       <h1 className='uppercase text-2xl mt-4'>Socials</h1>
       <div className='flex gap-5'>
-        <Link href="https://www.facebook.com/profile.php?id=61553503710750">      <FaFacebookSquare className='text-2xl' />
+        <Link aria-label='my profiles' href="https://www.facebook.com/profile.php?id=61553503710750">      <FaFacebookSquare className='text-2xl' />
         </Link>
-        <Link href="https://www.instagram.com/villiamtorstensson">
+        <Link aria-label='my profiles' href="https://www.instagram.com/villiamtorstensson">
       <FaInstagram className='text-2xl' />
       </Link>
-      <Link href="https://www.linkedin.com/in/villiam-torstensson-47a0b625a/">
+      <Link aria-label='my profiles' href="https://www.linkedin.com/in/villiam-torstensson-47a0b625a/">
       <FaLinkedin className='text-2xl' />
       </Link>
       </div>

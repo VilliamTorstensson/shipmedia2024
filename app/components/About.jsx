@@ -51,7 +51,7 @@ export default function About () {
               <h1 className='uppercase'>developer</h1>
               <h1 className='uppercase'>ui ui designer</h1>
             </div>
-            <Link href="#contact" class="relative">
+            <Link aria-label='contact me' href="#contact" class="relative">
         <span class="absolute top-0 left-0 mt-1 ml-1 h-full w-full  bg-gray-200">
           </span>
         <span class="fold-bold relative inline-block h-full w-full   bg-[#42201F] md:px-16 md:py-4 py-2 px-10 text-xl  md:text-2xl font-bold text-white transition duration-100 hover:bg-[#424242] uppercase ">contact</span>

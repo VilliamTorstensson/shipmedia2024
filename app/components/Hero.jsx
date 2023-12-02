@@ -14,7 +14,7 @@ export default function Hero () {
         <p className="capitalize text-xl lg:text-2xl text-gray-300">building digital products, <br className="flex md:hidden" />brands and experiences.</p>
         <div class="flex flex-wrap justify-center gap-6">
 
-    <Link href="#work" class="relative">
+    <Link aria-label='explore my work' href="#work" class="relative">
         <span class="absolute top-0 left-0 mt-1 ml-1 h-full w-full rounded bg-gray-200"></span>
         <span class="fold-bold relative inline-block h-full w-full rounded  bg-[#42201F] px-10 py-3 text-lg sm:text-2xl font-bold text-white transition duration-100 hover:bg-[#424242] uppercase ">explore</span>
     </Link>
