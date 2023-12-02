@@ -60,7 +60,7 @@ const closeMenu = () => {
               
             </ul>
             <ul className='hidden lg:flex w-full h-full justify-end items-center'>
-            <Link aria-label='contact' href="#contact" className='bg-[#606060] hover:bg-[#fff] hover:text-black rounded-full py-3 px-6'><h4 className='font-semibold'>contact</h4></Link>
+            <Link aria-label='contact' href="#contact" className='bg-[#606060] hover:bg-[#fff] hover:text-black rounded-full py-3 px-6 font-sans font-bold'>Contact</Link>
             </ul>
           </nav>
     </section>

@@ -9,7 +9,8 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from 'next/link'
 
 export default function Contact () {
-  const [state, handleSubmit] = useForm("mzbllygq aria-label='contact me'");
+  const [state, handleSubmit] = useForm("mzbllygq");
+
   if (state.succeeded) {
       return <div className='px-4 sm:px-10 max-w-[1440px] mx-auto'>
         <div className='md:w-[50%] w-full h-full flex flex-col gap-10'>
@@ -18,7 +19,7 @@ export default function Contact () {
         </div>
         <h1 className='text-4xl mt-10   font-sans font-bold'>Thank's for reaching out!</h1>
         <p className='mt-4'>I'll get back to you as soon as possible</p>
-        <div className='flex gap-4 mt-5'>
+        <div className='flex gap-4 mt-5 mb-5'>
           <Link aria-label='contact me' href="mailto:villiam@shipmedia.se">
           <AiOutlineMail className='text-2xl' />
           </Link>
@@ -101,7 +102,7 @@ export default function Contact () {
         errors={state.errors}
       />
  
-      <button className='btn5 bg-[#42201F] py-3 text-2xl uppercase' type="submit" disabled={state.submitting}>
+      <button className='btn5 bg-[#42201F] w-full h-15 items-center flex justify-center py-3 text-2xl uppercase' type="submit" disabled={state.submitting}>
         send message
       </button>
      
