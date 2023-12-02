@@ -77,8 +77,8 @@ const y = useTransform(scrollYProgress, [0, 1], [1, 900])
               y={y}
                 src={item.url}
                 alt="work"
-                width={1080}
-                height={1920}
+                width={2160}
+                height={3840}
                 className="rounded-md"
               />
               </motion.div>
