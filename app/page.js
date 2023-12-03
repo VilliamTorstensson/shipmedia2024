@@ -1,6 +1,6 @@
 
 import Hero from './components/Hero'
-import ImageSlider from './components/ImageSlider'
+
 import Services from './components/Services'
 import LogoSlider from './components/LogoSlider'
 import Benefits from './components/Benefits'
@@ -15,9 +15,9 @@ export default function Home() {
     <main>
       
       <Hero />
-      <ImageSlider />
-      <Services />
       <LogoSlider />
+      <Services />
+     
       <Benefits />
       <Portfolio />
       <About />
