@@ -10,7 +10,7 @@ import tagManager from 'react-gtm-module'
 const tagManagerArgs = {
   gtmId: 'G-TDP379QD6K'
 }
-tagManager.initialize(tagManagerArgs)
+
 
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '700'] })
