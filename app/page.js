@@ -1,4 +1,4 @@
-
+import Head from 'next/head';
 import Hero from './components/Hero'
 
 import Services from './components/Services'
@@ -10,7 +10,7 @@ import Pricing from './components/Pricing'
 import Faq from './components/Faq'
 
 import Contact from './components/Contact'
-import { cookies } from 'next/headers'
+
 
 
 export default function Home() {
@@ -18,8 +18,17 @@ export default function Home() {
   
 
   return (
-    <main>
-      
+    <div>
+      <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDP379QD6K"></script>
+        <script>{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-TDP379QD6K');
+        `}</script>
+      </head>
+      <main>
       <Hero />
       <LogoSlider />
       <Services />
@@ -30,7 +39,8 @@ export default function Home() {
       <Pricing />
       <Faq />
       <Contact />
-    </main>
+      </main>
+    </div>
   )
 };
 

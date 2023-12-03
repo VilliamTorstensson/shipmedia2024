@@ -4,12 +4,6 @@ import { Poppins } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-
-
-
-
-
-
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '700'] })
  
 
@@ -29,15 +23,9 @@ export default function RootLayout({ children }) {
     style={{scrollBehavior: 'smooth'}} lang="en">
       
       <body className={anton.className}>
-      
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<G-TDP379QD6K>"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-
         <Navbar />
         {children}
         <Footer />
-        
-
         </body>
     </html>
   )
