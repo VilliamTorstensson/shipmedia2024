@@ -3,13 +3,10 @@ import './globals.css'
 import { Poppins } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import tagManager from 'react-gtm-module'
 
 
 
-const tagManagerArgs = {
-  gtmId: 'G-TDP379QD6K'
-}
+
 
 
 
@@ -32,7 +29,10 @@ export default function RootLayout({ children }) {
     style={{scrollBehavior: 'smooth'}} lang="en">
       
       <body className={anton.className}>
-        
+      
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=<G-TDP379QD6K>"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
         <Navbar />
         {children}
         <Footer />
