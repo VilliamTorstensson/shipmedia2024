@@ -10,7 +10,13 @@ import Pricing from './components/Pricing'
 import Faq from './components/Faq'
 
 import Contact from './components/Contact'
+import { cookies } from 'next/headers'
+
+
 export default function Home() {
+
+  
+
   return (
     <main>
       
@@ -26,5 +32,6 @@ export default function Home() {
       <Contact />
     </main>
   )
-}
+};
+
 
