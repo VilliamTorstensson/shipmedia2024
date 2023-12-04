@@ -83,8 +83,10 @@ const handleClick2 = () => {
                 <ul className={`w-full justify-center gap-1 flex ${isOpen2 ? 'flex' : 'hidden'}`}>
                 <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#nav">Top</Link>
                 <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#services">Services</Link>
+
+                <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#work">Work</Link>
                   <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#about">About</Link>
-                  <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#work">Work</Link>
+                  
                  
                   
                   <Link className='animation-bouncy text-sm px-2 py-1 rounded-full bg-black text-white' href="#contact">Contact</Link>
