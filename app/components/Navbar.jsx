@@ -14,6 +14,13 @@ const handleClick = () => {
 const closeMenu = () => {
   setIsOpen(false)
 }
+
+const [isOpen2, SetIsOpen2] = useState(false)
+const handleClick2 = () => {
+  SetIsOpen2(!isOpen2)
+}
+
+
   return (
     <section id="nav" className="w-full h-full ">
       <nav className="  z-20 px-4 md:px-10 w-full h-20 max-w-[1540px] mx-auto flex justify-between  items-center">
@@ -62,6 +69,23 @@ const closeMenu = () => {
             <ul className='hidden lg:flex w-full h-full justify-end items-center'>
             <Link aria-label='contact' href="#contact" className='bg-[#606060] hover:bg-[#fff] hover:text-black rounded-full py-3 px-6 font-sans font-bold'>Contact</Link>
             </ul>
+          </nav>
+          
+
+
+
+          <nav  className='md:hidden flex justify-center fixed bottom-[40px] inset-x-0 mx-auto z-40 w-full' >
+              <div onClick={handleClick2} className={`bg-white shadow-sm px-5 py-3 rounded-full text-black font-sans text-2xl font-bold ${isOpen2 ? 'w-80' : 'w-content'}`}>
+                <h1 className={`${isOpen2 ? 'hidden' : 'flex'}`} >N</h1>
+                <ul className={`w-full justify-between flex ${isOpen2 ? 'flex' : 'hidden'}`}>
+                <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#services">Services</Link>
+                <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#work">Work</Link>
+                  <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#about">About</Link>
+                  
+                  
+                  <Link className='text-sm px-2 py-1 rounded-full bg-black text-white' href="#contact">Contact</Link>
+                </ul>
+              </div>
           </nav>
     </section>
   )

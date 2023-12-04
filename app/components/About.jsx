@@ -6,37 +6,25 @@ export default function About () {
     <main id="about" className=" w-full h-full bg-[#090909] border-t ">
       <section className="py-20 flex flex-col gap-10 max-w-[1440px] px-4 sm:px-10 mx-auto">
         <h1 className="uppercase xl:leading-[120px] xl:text-[120px] text-6xl md:text-8xl">villiam torstensson</h1>
-        <div className="grid xl:grid-cols-3 gap-10 sm:gap-5 sm:grid-cols-2 grid-cols-1 xl:pb-0 pb-4 border-b border-[#575757]">
+        <div className="grid xl:grid-cols-3 gap-10 sm:gap-5 md:grid-cols-2 grid-cols-1 xl:pb-0 pb-4 border-b border-[#575757]">
           <div className="h-full w-full flex flex-col gap-10 xl:gap-20 order-2 xl:order-1">
             <h1 className=" text-lg leading-none">VILLAIM TORSTENSSON <span className="font-sans text-sm leading-none">I'm a webdeveloper and graphic designer based in Sweden. I specialize in building cutting-edge websites using React with Next.js as my trusted framework, with my attention for details i create seamless, responsive, and user-friendly web solutions that not only meet but exceed expectations. Let's collaborate and turn your online vision into reality.</span></h1>
             <div className="flex flex-col gap-10">
               <div><h1 className="uppercase text-2xl border-b border-[#575757]">web design</h1>
               <div className='flex'>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl '/>
-              <IoMdStar className='mt-2 text-xl text-gray-500'/>
+              <p className='mt-2'>As a web designer, I create digital designs. I offer visually appealing and user-friendly websites, crafting online experiences that meet the unique needs of clients and users.</p>
               </div>
               
               </div>
               <div><h1 className="uppercase text-2xl border-b border-[#575757]">development</h1>
               <div className='flex'>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl '/>
-              <IoMdStar className='mt-2 text-xl text-gray-500'/>
+              <p className='mt-2'>I specialize in creating and selling digital solutions. I offer web applications that are not only visually appealing but also enhancing online experiences for clients and users.</p>
               </div>
               
               </div>
               <div><h1 className="uppercase text-2xl border-b border-[#575757]">figma design</h1>
               <div className='flex'>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl'/>
-              <IoMdStar className='mt-2 text-xl text-gray-500'/>
+              <p className='mt-2'>I specialize in creating digital designs. I offer visually appealing and functional designs that cater to various needs, enhancing online experiences for clients and users.</p>
               </div>
               
               </div>
