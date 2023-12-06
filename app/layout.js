@@ -3,6 +3,7 @@ import './globals.css'
 import { Poppins } from 'next/font/google'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '700'] })
  
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className={anton.className}>
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
         </body>
     </html>
