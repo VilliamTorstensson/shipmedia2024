@@ -89,7 +89,7 @@ const handleClick2 = () => {
                   
                  
                   
-                  <Link className='animation-bouncy text-sm px-2 py-1 rounded-full bg-black text-white' href="#contact">Contact</Link>
+                  <Link className=' text-sm px-2 py-1 rounded-full bg-black text-white' href="#contact">Contact</Link>
                 </ul>
               </div>
              
