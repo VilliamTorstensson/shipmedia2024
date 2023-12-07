@@ -27,4 +27,31 @@ body {
   color: #ececec;
   background: #090909;
 }
-
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+.hero-animation {
+  animation: fade-up 1s 0.25s backwards;
+  
+}
+.nav-animation {
+  animation: fade-down 0.5s 0.75s backwards;
+  
+}
