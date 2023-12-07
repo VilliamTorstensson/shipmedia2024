@@ -48,10 +48,10 @@ body {
   }
 }
 .hero-animation {
-  animation: fade-up 1s 0.25s backwards;
+  animation: fade-up 1s 0.5s backwards;
   
 }
 .nav-animation {
-  animation: fade-down 0.5s 0.75s backwards;
+  animation: fade-down 0.5s 1s backwards;
   
 }
