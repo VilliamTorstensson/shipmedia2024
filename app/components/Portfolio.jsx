@@ -9,51 +9,51 @@ export default function Portfolio () {
   const card = [
     {
       id: 1,
-      url: "/work4.webp",
+      url: "/work4.jpg",
     },
     {
       id: 2,
-      url: "/work6.webp",
+      url: "/work6.jpg",
     },
     {
       id: 3,
-      url: "/work7.webp",
+      url: "/work7.jpg",
     },
     {
       id: 4,
-      url: "/work8.webp",
+      url: "/work8.jpg",
     },
     {
       id: 5,
-      url: "/work1.webp",
+      url: "/work1.jpg",
     },
     {
       id: 6,
-      url: "/work9.webp",
+      url: "/work9.jpg",
     },
     {
       id: 7,
-      url: "/work2.webp",
+      url: "/work2.jpg",
     },
     {
       id: 8,
-      url: "/work4.webp",
+      url: "/work4.jpg",
     },
     {
       id: 9,
-      url: "/work3.webp",
+      url: "/work3.jpg",
     },
     {
       id: 10,
-      url: "/work8.webp",
+      url: "/work8.jpg",
     },
     {
       id: 11,
-      url: "/work1.webp",
+      url: "/work1.jpg",
     },
     {
       id: 12,
-      url: "/work5.webp",
+      url: "/work5.jpg",
     },
   ];
 const container = useRef(null);
@@ -62,7 +62,7 @@ const { scrollYProgress } = useScroll({
   offset: ['start end', 'end start'],
 })
 
-const y = useTransform(scrollYProgress, [0, 1], [1, 9000])
+const y = useTransform(scrollYProgress, [0, 1], [1, 900])
 
   return (
     <main id="work" className="w-full h-full my-auto flex items-center justify-center overflow-y-hidden relative bg-[#2d2d2f] ">
@@ -70,7 +70,7 @@ const y = useTransform(scrollYProgress, [0, 1], [1, 9000])
       <div ref={container} className=' relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 z-0'>
         {card.map((item) => {
           return (
-            <div style={{scrollBehavior: 'smooth'}}  y={0} key={item.id} className="scroll-smooth xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full ">
+            <div style={{scrollBehavior: 'smooth'}}  y={0} key={item.id} className="scroll-smooth xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full">
               <motion.div style={{y}} className='scroll-smooth'  >
               <Image
                
