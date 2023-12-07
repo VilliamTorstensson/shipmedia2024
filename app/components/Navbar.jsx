@@ -1,10 +1,10 @@
-"use client";
+"use client"
 import Link from 'next/link'
 import { useState } from 'react'
 import { HiMenuAlt4 } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import { TiArrowUpOutline } from "react-icons/ti";
-import { MdNavigation } from "react-icons/md";
+
 export default function Navbar () {
 
   const [isOpen, setIsOpen] = useState(false)

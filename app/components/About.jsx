@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { IoMdStar } from "react-icons/io";
+
 export default function About () {
   return (
     <main id="about" className=" w-full h-full bg-[#090909] border-t ">
@@ -30,8 +30,9 @@ export default function About () {
               </div>
             </div>
           </div>
-          <div className="h-full w-full order-1">
-            <Image src="/mig.jpg" alt="me" width={500} height={500}   className="rounded-sm" />
+          <div className="h-full w-full order-1 ">
+            <Image src="/mig.webp" alt="me" width={511}
+            height={689}  className="rounded-sm w-full h-full" />
           </div>
           <div className="h-[95%] w-full flex flex-col justify-between lg:items-center items-start order-3 xl:order-3">
             <div className='hidden xl:flex justify-between w-[80%]'>

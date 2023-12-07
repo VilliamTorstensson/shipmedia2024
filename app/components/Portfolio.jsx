@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion';
 import { useTransform, useScroll } from 'framer-motion';
-import { useEffect, useRef } from 'react';
+import {  useRef } from 'react';
 
 export default function Portfolio () {
  
@@ -62,7 +62,7 @@ const { scrollYProgress } = useScroll({
   offset: ['start end', 'end start'],
 })
 
-const y = useTransform(scrollYProgress, [0, 1], [1, 900])
+const y = useTransform(scrollYProgress, [0, 1], [1, 9000])
 
   return (
     <main id="work" className="w-full h-full my-auto flex items-center justify-center overflow-y-hidden relative bg-[#2d2d2f] ">
@@ -70,11 +70,11 @@ const y = useTransform(scrollYProgress, [0, 1], [1, 900])
       <div ref={container} className=' relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 z-0'>
         {card.map((item) => {
           return (
-            <div style={{scrollBehavior: 'smooth'}}  y={0} key={item.id} className="scroll-smooth xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full">
-              <motion.div className='scroll-smooth' style={{y}} >
+            <div style={{scrollBehavior: 'smooth'}}  y={0} key={item.id} className="scroll-smooth xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative flex gap-4 w-full ">
+              <motion.div style={{y}} className='scroll-smooth'  >
               <Image
                
-              y={y}
+              
                 src={item.url}
                 alt="work"
                 width={2160}
