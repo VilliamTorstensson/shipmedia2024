@@ -1,5 +1,6 @@
 "use client"
 import Link from 'next/link';
+
 import { useState } from 'react';
 import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineGithub, AiOutlineLinkedin } from 'react-icons/ai';
 
@@ -78,6 +79,7 @@ export default function Footer() {
         <div className='pb-[110px] w-full flex justify-center items-center gap-2 flex-col text-gray-300 '>
           <Link aria-label='my privacy policy' href="/Privacy" className=' hover:text-gray-400'>Privacy Policy</Link>
           <h1>© 2023 all rights reserved</h1></div>
+         
       </footer>
     </main>
   )

@@ -44,14 +44,14 @@ export default function Services () {
     <main id="services" className="bg-[#090909]  h-full  ">
       <section className="w-full h-full max-w-[1440px] mx-auto">
         <div className="py-20  md:px-10 px-4 flex flex-col gap-10 items-start justify-start">
-          <h1 className="sm:text-6xl text-4xl uppercase">choose a service that <br /> works for you</h1>
+          <h1 className="nav-animation sm:text-6xl text-4xl uppercase">choose a service that <br /> works for you</h1>
            
             <div className=" grid grid-cols-1 md:grid-cols-2 w-full h-full gap-4">
             
               {cards.map((item) => {
                 const [isOpen, setIsOpen] = useState(false);
                 const Stylediv = {
-                  backgroundImage: `url(${item.url})`, // Fix: Use item.url instead of cards.url
+                  backgroundImage: `url(${item.url})`, // 
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -63,10 +63,10 @@ export default function Services () {
                 };
 
                 return (
-                  <div onClick={handleClick} key={item.id} className="relative w-full h-full">
+                  <div onClick={handleClick} key={item.id} className=" relative w-full h-full">
                     
-                    <div style={Stylediv} className={`rounded-lg cursor-pointer flex justify-start  flex-col h-min items-start relative py-4 ${isOpen ? 'justify-start' : ''}`}>
-                      <div className={`z-10  absolute w-full h-full bg-black top-0 left-0  ${isOpen ? 'opacity-90' : 'opacity-10 md:hover:opacity-30'}`} >
+                    <div style={Stylediv} className={`  rounded-lg cursor-pointer flex justify-start  flex-col h-min items-start relative py-4 ${isOpen ? 'justify-start' : ''}`}>
+                      <div className={` z-10  absolute w-full h-full bg-black top-0 left-0  ${isOpen ? 'opacity-90' : 'opacity-10 md:hover:opacity-30'}`} >
                       </div>
                       <h1 className={` uppercase z-20 bg-black bg-opacity-80 text-white px-6 py-2 text-2xl ${isOpen ? 'ml-0' : 'ml-4'}`}>{item.title}</h1>
                       {isOpen ? (

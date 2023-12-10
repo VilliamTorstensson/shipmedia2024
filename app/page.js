@@ -9,6 +9,7 @@ import ServiceSlider from './components/ServiceSlider'
 import Pricing from './components/Pricing'
 import Faq from './components/Faq'
 
+
 import Contact from './components/Contact'
 
 
@@ -19,15 +20,7 @@ export default function Home() {
 
   return (
     <div>
-      <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDP379QD6K"></script>
-        <script>{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-TDP379QD6K');
-        `}</script>
-      </head>
+      
       <main>
       <Hero />
       <LogoSlider />
@@ -40,6 +33,7 @@ export default function Home() {
       <Pricing />
       <Faq />
       <Contact />
+    
       </main>
     </div>
   )
