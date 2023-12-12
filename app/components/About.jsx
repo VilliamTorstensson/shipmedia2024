@@ -12,7 +12,7 @@ export default function About () {
             <div className="flex flex-col gap-10">
               <div><h1 className="uppercase text-2xl border-b border-[#575757]">web design</h1>
               <div className='flex'>
-              <p className='mt-2'>As a web designer,  I offer visually appealing and user-friendly websites, crafting online experiences that meet the unique needs of clients and users.</p>
+              <p className='mt-2'>As a web designer, I offer visually appealing and user-friendly websites, crafting online experiences that meet the unique needs of clients and users.</p>
               </div>
               
               </div>
