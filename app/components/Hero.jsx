@@ -10,7 +10,7 @@ export default function Hero () {
         <div className="h-full w-full flex flex-col items-center justify-center gap-[2rem] md:gap-[4rem] text-center ">
         
         <h1 className="hero-animation text-[50px] leading-[50px] xs:text-[60px] xs:leading-[60px] sm:text-[90px] sm:leading-[90px] md:text-[100px] md:leading-[100px] lg:text-[120px] lg:leading-[120px] xl:text-[140px] xl:leading-[140px] 2xl:text-[160px] 2xl:leading-[160px] uppercase
-        ">i offer design & <br /> webdevelopment</h1>
+        ">We offer design & <br /> webdevelopment</h1>
         <p className="hero-animation capitalize text-xl lg:text-2xl text-gray-300">building digital products, <br className="flex md:hidden" />brands and experiences.</p>
         <div class="flex flex-wrap justify-center gap-6">
 

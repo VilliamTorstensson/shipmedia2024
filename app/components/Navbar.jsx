@@ -5,6 +5,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { MdOutlineClose } from "react-icons/md";
 import { TiArrowUpOutline } from "react-icons/ti";
 
+
 export default function Navbar () {
 
   const [isOpen, setIsOpen] = useState(false)
@@ -25,30 +26,13 @@ const handleClick2 = () => {
   return (
     <section id="nav" className="w-full h-full ">
       <nav className="  z-20 px-4 md:px-10 w-full h-20 max-w-[1540px] mx-auto flex justify-between  items-center">
-        <h1 className='nav-animation hidden md:flex line-through decoration-black text-xl'>VILLIAM</h1>
+        
         <Link aria-label='back to homepage' className='nav-animation w-full flex justify-start md:justify-center text-2xl  ' href="/">SHIP MEDIA</Link>
         <div onClick={handleClick} className=' flex flex-col justify-between  w-10 h-10
         '>
-        {isOpen ? (
-          <MdOutlineClose className='text-4xl' /> ) : (
         
-          <HiMenuAlt4 className='nav-animation text-4xl' />
-          
-            )
-          }
           </div>
-          <div className={`z-10 duration-500 ease-in-out absolute w-full h-content py-5 px-4 bg-[#f5f5f5] top-20 left-0 ${isOpen ?  'top-20' : 'top-[-100%]'}`}>
-            <ul className='flex flex-col h-full gap-5' onClick={closeMenu}>
-            <li className='hover:text-[#323232] text-black border-b border-[#323232] inline-block'><Link href="#services">Services</Link></li>
-              
-              
-              <li className='hover:text-[#323232] text-black border-b border-[#323232] inline-block'><Link aria-label='go to section' href="#work">Work</Link></li>
-              <li className='hover:text-[#323232] text-black border-b border-[#323232] inline-block'><Link aria-label='go to section' href="#about">About</Link></li>
-              <li className='hover:text-[#323232] text-black border-b border-[#323232] inline-block'><Link aria-label='go to section' href="#pricing">Pricing</Link></li>
-              <li className='hover:text-[#323232] text-black border-b border-[#323232] inline-block'><Link aria-label='go to section' href="#faq">FAQs</Link></li>
-              <li className='hover:text-[#323232] text-black border-b border-[#323232] inline-block'><Link aria-label='go to section' href="#contact">Contact</Link></li>
-            </ul>
-            </div>
+         
       </nav>
           <nav className='z-40 hidden md:flex  w-[45rem] lg:w-[55rem]  mx-auto inset-x-0  rounded-full fixed bottom-[40px] h-[60px] bg-[#323232] justify-between px-2 max-w-[1440px] items-center'>
             <ul className='w-full h-full flex items-center justify-start'>
